@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import RecepeApi from "../CustomHook/UseAnime";
+import RecepeApi from "../CustomHook/RecepeAPi";
 import { useDispatch } from "react-redux";
 import { ShowRecepe } from "../Features/RecpeSlice";
 import { NavLink } from "react-router-dom";

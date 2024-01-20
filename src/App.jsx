@@ -1,14 +1,9 @@
 
-import "./App.css";
-import UseAnime from "./CustomHook/UseAnime";
 
 function App() {
-   
-  return(
-    <>
-    
-    </>
-  )
+  return <>
+  
+  </>;
 }
 
 export default App;
