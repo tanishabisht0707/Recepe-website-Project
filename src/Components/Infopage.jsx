@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import UseAnime from "../CustomHook/UseAnime";
+import RecepeApi from "../CustomHook/UseAnime";
 import { useDispatch } from "react-redux";
 import { ShowRecepe } from "../Features/RecpeSlice";
 import { NavLink } from "react-router-dom";
@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 function Infopage() {
 
   const [value,setValue] = useState("")
-  const recepe = UseAnime(value)
+  const recepe = RecepeApi(value)
   const [data, setData] = useState([]);
   const [searched,setSearched] = useState(false)
 
